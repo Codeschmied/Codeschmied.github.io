@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html ng-app="profile" lang="de">
+<head>
+	<title>Bewerbung Martin Alef</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" type="text/css" href="../guts/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="../guts/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="../guts/bootstrap-theme.css" />
+  	<link rel="stylesheet" type="text/css" href="../guts/extra-styles.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  <script src="../modules/app.js"></script>
+  <script src="../modules/data-loader/data-loader.js"></script>
+  <script src="../modules/lession/lession-mod.js"></script>
+  <script src="../modules/project/project-dir.js"></script>
+  <script src="../modules/subskill/subskill-dir.js"></script>
+  <script src="../data/lessions.js"></script>
+  <script src="../data/projects.js"></script>
+  <script src="../data/skills.js"></script>
+
+
+</head>
+<body class="container-fluid  bgimage nospacing">
+<div class="col-md-10 col-md-offset-1" style="background-color:#ffffff;margin-top:100px">
+<br/><br/>
+
+<img class="foto" style="border-radius:50%;" />
+
+  <h2>Persönliche Daten</h2>
+  Martin Alef<br/>
+  23.06.1990, Nürnberg<br/><br/>
+
+  <ul class="list-unstyled">
+  <li>Email: alef@freenet.de</li>
+  <li>Telefonnummer: 0175 6991396</li>
+  <li>Adresse: Paul-Keller-Str. 6, 90768 Fürth</li>
+  </ul>
+  <br/>
+  <ul class="row">
+    <li>Vier Jahre Erfahrung in der Planung, Umsetzung, Wartung und Dokumentation von web-basierten Anwendungen mit C# .NET und Microsoft MVC</li>
+    <li>Fundierte Kenntnisse in der Backend-Entwicklung als auch im Frontend: HTML, CSS3, JQuery und AngularJS</li>
+    <li>Erfahrung im Erstellen und Einbinden von Rest-Services </li>
+    <li>Große Stärken in der Problemanalyse und Lösungsplanung bis ins letzte Detail und in der Beseitigung technischer Schuld</li>
+    <li>Ausgeprägte Kreativität und großes Verantwortungsbewusstsein</li>
+    <li>Routine in Scrum-Prozessen wie Refinements, Daily Standup, Review, Sprint planning und Retro</li>
+  </ul>
+
+<br/><br/>
+
+
+  <div class="grad"><h2>Schulbildung</h2></div>
+  <div>
+    <div class="row">
+      <div class="col-md-2 col-xs-4" >2001 – 2010</div>
+      <div class="col-md-10 col-xs-8" >Gymnasium in Fürth, BAY<br/>
+  	      Abschluss: Abitur mit LK Mathematik und Englisch<br/>
+  	      Zusatzkurse: English conversation<br/>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2 col-xs-4">1997 – 2001</div>
+      <div class="col-md-10 col-xs-8 ">Grundschule in Fürth, BAY</div>
+    </div>
+  </div>
+
+<br/><br/>
+
+
+<h2>Berufspraxis</h2>
+  <div class="row">
+    <div class="col-md-2 col-xs-4" >Seit 2013</div>
+    <div class="col-md-10 col-xs-8" >Festanstellung  bei der Hotel.de AG in Nürnberg<br/>
+      <ul class="row">
+        <li>Full-Stack-Web-Entwicklung im Auftrag der internen Fachabteilungen</li>
+        <li>Verwendete Technologien: ASP.NET, .NET; C#; MS SQL Server, HTML, CSS, Javascript, JQuery, AngularJS, uvm.</li>
+      </ul>
+  </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2 col-xs-4">09/2010 – 02/2013</div>
+    <div class="col-md-10 col-xs-8">Ausbildung zum <b>Fachinformatiker Softwareentwicklung</b> bei der Hotel.de AG in Nürnberg</div>
+  </div>
+
+
+<br/><br/>
+
+
+<h2>Kenntnisse und Besondere Fähigkeiten</h2>
+Kenntnisgrade:<br/>
+<img class="skillImage1"/> Grundkenntnisse <br/>
+<img class="skillImage2"/> Fortgeschrittene Kenntnisse <br/>
+<img class="skillImage3"/> Sehr gute Kenntnisse <br/>
+<br/><br/>
+<div>
+<div class="ma-table" ng-controller="maSkillsCtrl">
+  <div class="row">
+    <div class="col-xs-12 col-sm-3">Gebiet</div>
+    <div class="col-xs-12 col-sm-9">
+      <div class="row">
+      <div class="col-xs-6">Teilgebiet</div>
+      <div class="col-xs-3" style="word-wrap: break-word">Kenntnisgrad</div>
+      <div class="col-xs-3" style="word-wrap: break-word">Anwendung in Jahren</div>
+    </div>
+    </div>
+  </div>
+  <div class="row" ng-repeat="skillset in skillsets">
+    <div class="col-xs-12 col-sm-3" >
+      {{skillset.name}}
+    </div>
+    <div class="col-xs-12 col-sm-9">
+      <div class="row" ng-repeat="sub in skillset.subskills" subskill="sub">
+      </div>
+    </div>
+  </div>
+<br/><br/>
+</div>
+</div>
+
+	<h2>Weiterbildung / Zertifizierungen</h2>
+
+		  <ul ng-controller="maLessionsCtrl" style="display:inline-block" >
+		    <li ng-repeat="les in lessions" lession = "les">
+		  </li>
+		  </ul>
+
+			<img class="lessionsImage col-md-3 hidden-xs" style="float:left"/>
+
+
+<h2 style="display:block" >Projektliste</h2>
+<div ng-controller="maProjectsCtrl" >
+  <div ng-repeat="proj in projects" project="proj" >
+  </div>
+</div>
+<br/><br/>
+
+
+<h2>Sprachen</h2>
+<div class="row">
+<div class="col-xs-12">
+  <div class="row">
+    <div class="col-xs-3 col-sm-2" >Deutsch</div>
+    <div class="col-xs-9" >Muttersprache</div>
+  </div>
+  <div class="row">
+    <div class="col-xs-3  col-sm-2">Englisch</div>
+    <div class="col-xs-9">Sehr gut</div>
+  </div>
+  <div class="row">
+    <div class="col-xs-3  col-sm-2">Französisch</div>
+    <div class="col-xs-9">Bedarf einer Auffrischung, ansonsten jedoch gut</div>
+  </div>
+</div>
+</div>
+<br/><br/>
+
+<h2>Interessen und Hobbies</h2>
+<div>
+  <div class="row">
+    <div class="col-xs-3  col-sm-2" >Computer</div>
+    <div class="col-xs-9" >Musikproduktion in Cubase, Bildbearbeitung in Gimp, teambasierte Onlinespiele mit Freunden. Erstellen und Arbeiten mit virtuellen Synthesizern und Effektmodulen.</div>
+  </div>
+  <div class="row">
+    <div class="col-xs-3  col-sm-2">Musik</div>
+    <div class="col-xs-9">Piano und Keyboard seit 2002.</div>
+  </div>
+  <div class="row">
+    <div class="col-xs-3  col-sm-2">Literatur</div>
+    <div class="col-xs-9">Deutsche und englische Romane sowie Sachbücher.</div>
+  </div>
+  <div class="row">
+    <div class="col-xs-3  col-sm-2">Sport</div>
+    <div class="col-xs-9">Longboarding, Badminton.</div>
+  </div>
+</div>
+</div>
+</body>
+</html>

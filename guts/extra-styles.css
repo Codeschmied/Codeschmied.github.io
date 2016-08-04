@@ -1,0 +1,51 @@
+.ma-table>.row
+{
+  border-bottom-color: black;
+  border-bottom-style: solid;
+}
+h2{
+  background-image: url("../media/pacR.png"), url("../media/pacL.png");
+  background-repeat: no-repeat,repeat-x;
+  background-size: contain;
+  background-position: right, left;
+
+  text-shadow: 0 0 11px #ffffff,0 1px 12px #ffffff,0 2px 13px #ffffff,0 3px 14px #ffffff,0 0 11px #ffffff,0 1px 12px #ffffff,0 2px 13px #ffffff,0 3px 14px #ffffff;
+}
+.foto{
+  content: url("../media/fotoP.jpg");
+}
+.foto:hover{
+  content: url("../media/foto.jpg");
+}
+.lessionsImage{
+  content : url("../media/questionBlock.png");
+  width: 100px;
+  height: 100px;
+  filter :blur(2px);
+  -webkit-filter: blur(2px);
+}
+.languagesImage{
+  content: url("../media/konamiLng.png");
+  width: auto;
+  height: auto;
+  filter :blur(2px);
+  -webkit-filter: blur(2px);
+}
+.bgimage{
+  background: url("../media/wallpaper2.jpg");
+  background-size: auto;
+  background-repeat: repeat;
+}
+.skillImage1{
+  content:url("../media/heart.png");
+}
+.skillImage2{
+  content:url("../media/heart2.png") ;
+}
+.skillImage3{
+  content:url("../media/heart3.png");
+}
+.nospacing{
+  margin:0;
+  padding:0;
+}
