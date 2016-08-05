@@ -12,14 +12,21 @@ h2{
   text-shadow: 0 0 11px #ffffff,0 1px 12px #ffffff,0 2px 13px #ffffff,0 3px 14px #ffffff,0 0 11px #ffffff,0 1px 12px #ffffff,0 2px 13px #ffffff,0 3px 14px #ffffff;
 }
 .foto{
-  content: url("../media/fotoP.jpg");
+  background-image: url("../media/fotoP.jpg");
+  background-size: cover;  
+width: 100px;
+  height: 100px;
 }
 .foto:hover{
-  content: url("../media/foto.jpg");
+  background-image: url("../media/foto.jpg");
+  background-size: cover;  
+width: 100px;
+  height: 100px;
 }
 .lessionsImage{
-  content : url("../media/questionBlock.png");
-  width: 100px;
+  background-image: url("../media/questionBlock.png");
+  background-size: cover;  
+	width: 100px;
   height: 100px;
   filter :blur(2px);
   -webkit-filter: blur(2px);
