@@ -2,12 +2,14 @@ angular.module('profile')
         .constant('skillsets',
 [
 	{
-    name: "Frameworks",
+    name: "Frameworks und Libraries",
     subskills:
 		[
 			{ name: "JQuery"	, rating: 3	, experience: 3 },
 			{name: "AngularJS"	, rating: 2, experience: 	1},
-			{name: "Microsoft MVC  bis Version 5"	, rating: 3, experience: 	3}
+			{name: "Microsoft MVC  bis Version 5"	, rating: 3, experience: 	3},
+			{name:"QUnit", rating: 2, experience: 1},
+			{name:"Sinon", rating:2, experience: 1}
 		]
 	},
 
@@ -23,7 +25,7 @@ angular.module('profile')
     name: "Scriptsprachen & Query-Sprachen",
     subskills:
 		[
-			{name: "Ecmascript 6 (Javascript)"	, rating: 3, experience: 	3},
+			{name: "Ecmascript 6 (Javascript)"	, rating: 3, experience: 	4},
 			{name: "Powershell"	, rating: 2, experience: 	2},
 			{name: "SQL"	, rating: 2, experience: 	3}
 		]
@@ -34,9 +36,9 @@ angular.module('profile')
     subskills:
 		[
 			{name: "XML"	, rating: 3, experience: 	4},
-			{name: "JSON"	, rating: 3, experience: 	4},
-			{name: "HTML"	, rating: 3, experience: 	5},
-			{name: "CSS bis Version 3"	, rating: 2, experience: 	4}
+			{name: "JSON"	, rating: 3, experience: 	5},
+			{name: "HTML"	, rating: 3, experience: 	6},
+			{name: "CSS bis Version 3"	, rating: 3, experience: 	4}
 		]
 	},
 
@@ -50,7 +52,7 @@ angular.module('profile')
 			{name: "Node.js"	,rating: 1, experience: 	1},
 			{name: "Automatisierte UI-tests"	, rating: 2, experience: 	2},
 			{name: "Selenium"	,	rating: 1, experience: 	2},
-			{name: "Unit-tests"	, rating: 3, experience: 	3},
+			{name: "Unit-tests"	, rating: 3, experience: 	4},
 			{name: "A/B-tests"	, rating: 2, experience: 	2}
 		]
 	},
@@ -59,12 +61,12 @@ angular.module('profile')
     name: "Entwicklungsmethoden",
     subskills:
 		[
-			{name: "TDD"	, rating: 2, experience: 	2},
+			{name: "TDD"	, rating: 2, experience: 	3},
 			{name: "DDD"	, rating: 2, experience: 	2},
-			{name: "Scrum"	, rating: 3, experience: 	4},
+			{name: "Scrum"	, rating: 3, experience: 	5},
 			{name: "Pair-development"	, rating: 3, experience: 	4},
 			{name: "Continous deployment",	rating: 1, experience: 	1},
-			{name: "Clean Coding"	, rating: 3, experience: 	3}
+			{name: "Clean Coding"	, rating: 3, experience: 	4}
 		]
 	},
 	{
@@ -72,10 +74,15 @@ angular.module('profile')
     subskills:
 		[
 			{name: "Visual Studio" 	, rating: 3, experience: 	6},
-			{name: "TFS"	, rating: 3, experience: 	4},
-			{name: "Git"	, rating: 2, experience: 	2},
 			{name: "Resharper"	, rating: 3, experience: 	6},
-			{name: "TFS online"	, rating: 2, experience: 	1}
+
+			{name: "IntellijIDEA", rating:2, experience:1},
+			{name: "TFS"	, rating: 3, experience: 	4},
+			{name: "Git"	, rating: 2, experience: 	3},
+			{name: "TFS online"	, rating: 2, experience: 	1},
+			{name:	"Jira", rating: 2, experience: 1},
+
+			{name:"Gulp", rating:1, experience: 1}
 		]
 	},
 
