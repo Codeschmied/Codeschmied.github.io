@@ -7,30 +7,17 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   fill-opacity="1"
-   color-rendering="auto"
-   color-interpolation="auto"
-   text-rendering="auto"
-   stroke="black"
-   stroke-linecap="square"
    stroke-miterlimit="10"
-   shape-rendering="auto"
-   stroke-opacity="1"
-   fill="black"
-   stroke-dasharray="none"
    font-weight="normal"
-   stroke-width="1"
-   font-family="'Dialog'"
    font-style="normal"
-   stroke-linejoin="miter"
    font-size="12"
-   stroke-dashoffset="0"
-   image-rendering="auto"
    version="1.1"
    id="svg3711"
-   viewBox="0 0 100 100"
    sodipodi:docname="printer.svg"
-   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   width="16"
+   height="16"
+   style="font-style:normal;font-weight:normal;font-size:12px;font-family:Dialog;color-interpolation:auto;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto">
   <metadata
      id="metadata3715">
     <rdf:RDF>
@@ -39,6 +26,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -55,9 +43,9 @@
      inkscape:window-height="1017"
      id="namedview3713"
      showgrid="false"
-     inkscape:zoom="4.25"
-     inkscape:cx="13.162456"
-     inkscape:cy="68.196689"
+     inkscape:zoom="17"
+     inkscape:cx="26.530335"
+     inkscape:cy="22.027676"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -68,8 +56,8 @@
      width="100%"
      height="100%" />
   <path
-     d="m 94.206888,90.505882 q 0,6.689201 -1.440227,8.344599 -1.440226,1.655399 -7.259949,1.655399 H 15.905297 q -5.819682,0 -7.2599513,-1.655399 -1.440226,-1.655398 -1.440226,-8.344599 V 63.816679 q 0,-7.027026 1.293291,-8.513489 1.293248,-1.48651 7.4068863,-1.48651 h 8.700176 V 0.50588196 H 76.806534 V 53.81668 h 8.700178 q 6.113637,0 7.406927,1.48651 1.293249,1.486463 1.293249,8.513489 z M 73.926081,53.81668 V 3.8166816 H 27.485969 V 53.81668 Z M 91.326435,90.505882 V 63.816679 q 0,-4.66215 -0.881786,-5.675675 -0.881742,-1.013478 -4.937937,-1.013478 H 15.905297 q -4.056153,0 -4.937938,1.013478 -0.881744,1.013525 -0.881744,5.675675 v 26.689203 q 0,4.324323 1.028722,5.506739 1.028721,1.182462 4.79096,1.182462 h 69.601415 q 3.762238,0 4.791001,-1.182462 1.028722,-1.182416 1.028722,-5.506739 z M 66.636743,17.127526 H 34.775264 V 13.81668 h 31.861479 z m 0,13.378356 H 34.775264 v -3.378403 h 31.861479 z m 0,13.310798 H 34.775264 v -3.310799 h 31.861479 z m 14.519901,34.729756 q 0,4.999975 -4.35011,4.999975 H 24.605473 q -4.350067,0 -4.350067,-4.999975 v -2.702704 q 0,-3.108132 0.822969,-4.054054 0.823011,-0.94597 3.527098,-0.94597 h 52.201061 q 2.70413,0 3.5271,0.94597 0.82301,0.945922 0.82301,4.054054 z"
+     d="m 14.501006,14.233226 q 0,1.008697 -0.217179,1.258322 -0.217179,0.249626 -1.094763,0.249626 H 2.6935319 q -0.8775779,0 -1.094763,-0.249626 -0.2171786,-0.249625 -0.2171786,-1.258322 v -4.024593 q 0,-1.0596389 0.1950216,-1.2837898 0.195015,-0.224158 1.11692,-0.224158 H 4.0054732 V 0.66169381 H 11.877122 V 8.7006852 h 1.311942 q 0.921905,0 1.116926,0.224158 0.195016,0.2241509 0.195016,1.2837898 z M 11.442765,8.7006852 v -7.53974 H 4.4398366 v 7.53974 z m 2.623883,5.5325408 v -4.024593 q 0,-0.7030279 -0.132969,-0.8558619 Q 13.800717,9.1999436 13.189064,9.1999436 H 2.6935319 q -0.6116469,0 -0.7446155,0.1528275 Q 1.815954,9.5056051 1.815954,10.208633 v 4.024593 q 0,0.652086 0.155126,0.830388 0.1551257,0.178309 0.7224519,0.178309 H 13.189064 q 0.567326,0 0.722458,-0.178309 0.155126,-0.178302 0.155126,-0.830388 z M 10.343571,3.1681514 H 5.5390246 V 2.668893 h 4.8045464 z m 0,2.0173866 H 5.5390246 V 4.6760923 h 4.8045464 z m 0,2.0071992 H 5.5390246 V 6.6934859 h 4.8045464 z m 2.189525,5.2370668 q 0,0.75397 -0.655974,0.75397 H 4.0054732 q -0.6559675,0 -0.6559675,-0.75397 V 12.02225 q 0,-0.46869 0.1240994,-0.61133 0.1241058,-0.142647 0.5318681,-0.142647 h 7.8716488 q 0.407769,0 0.531869,0.142647 0.124105,0.14264 0.124105,0.61133 z"
      id="path3709"
      inkscape:connector-curvature="0"
-     style="stroke:none;stroke-width:0.44816694" />
+     style="stroke:none;stroke-width:0.06758124" />
 </svg>
