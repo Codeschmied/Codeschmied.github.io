@@ -1,6 +1,10 @@
 var subskillTemplate = `
 <div class="col-xs-6">{{subskill.name}}</div>
-<div class="col-xs-3"><img class="skillImage{{subskill.rating}}" alt="{{subskill.rating}}"/></div>
+<div class="col-xs-3" skillLevel="{{subskill.rating}}"><img class="skillImage{{subskill.rating}}" alt="{{subskill.rating}}"/>
+<span class="skill1">+</span>
+<span class="skill2">+ +</span>
+<span class="skill3">+ + +</span>
+</div>
 <div class="col-xs-3 ">{{subskill.experience}}</div>`;
 
 

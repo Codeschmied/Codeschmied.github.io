@@ -1,0 +1,42 @@
+h1{
+    background:white;
+}
+
+.main-container{
+    margin:0;
+    width:100%;
+}
+
+.lessionsImage{
+    display:none;
+}
+
+.printBox{
+    display:none;
+}
+.skillImage1,.skillImage2,.skillImage3{
+    max-height:1em;
+}
+.skillImage1{
+    display:none;
+}
+.skillImage2{
+    display:none;
+}
+.skillImage3{
+    display:none;
+}
+
+[skilllevel$="3"]>.skill3{
+    width:3em;
+    display: inline-block;
+}
+
+[skilllevel$="2"]>.skill2{
+    width:3em;
+    display: inline-block;
+}
+[skilllevel$="1"]>.skill1{
+    width:3em;
+    display: inline-block;
+  }

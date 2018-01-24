@@ -1,6 +1,7 @@
-angular.module('profile')
-        .constant('projects',
-[
+var hde = {
+  name:"hotel de",
+  id:"hde",
+   projects:[
   {
   PrimaryTitle: "Personalisierung der mobilen Plattform",
   SecondaryTitle: "Login & Registrierung mit dediziertem OAuth-Server",
@@ -68,5 +69,30 @@ angular.module('profile')
   Activity:		"Einarbeitung in die Plattform, Bugfixes, Refactorings.",
   Technologies:	"C# .NET, Microsoft MVC, Microsoft SQL-Management Studio",
   }
-]
+]};
+
+var sf = {
+  name:"stayfriends",
+  id:"ELO",
+
+  projects:[  {
+    PrimaryTitle:"Integration und Ausbau der Webanwendung",
+    SecondaryTitle: "Umbau zur Library, zur Einbindung auf der Partnerseite Stayfriends",
+    TimeSpan:		"03/2016 – 03/2018",
+    Role:       "Hauptentwickler",
+    Activity: "Ausbauen der Features und Betreuung der Integration. Kommunikation mit dem Partnerteam vorwiegend übers Web aufgrund geografischer Distanz.",
+    Technologies:	"Javascript,HTML,Gulp,QUnit,Sinon"
+  },
+  {
+    PrimaryTitle:	"Prototyp einer Webversion",
+    SecondaryTitle:	"Erstellen eines Prototypen für die Webversion der Handy-app",
+    TimeSpan:		"11/2016 – 03/2017",
+    Role:       "Hauptentwickler",
+    Activity:		"Einarbeiten in die bestehende Architektur der Anwendung, erstellen eines ersten spielbaren Prototypen.",
+    Technologies:	"Javascript,HTML,Gulp,QUnit,Sinon"
+  }
+  ],
+};
+
+angular.module('profile').constant('employers',[sf,hde]
 );

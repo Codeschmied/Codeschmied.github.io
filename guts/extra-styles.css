@@ -3,56 +3,56 @@
   border-bottom-color: black;
   border-bottom-style: solid;
 }
-h2{
-  background-image: url("../media/pacR.png"), url("../media/pacL.png");
-  background-repeat: no-repeat,repeat-x;
-  background-size: contain;
-  background-position: right, left;
 
-  text-shadow: 0 0 11px #ffffff,0 1px 12px #ffffff,0 2px 13px #ffffff,0 3px 14px #ffffff,0 0 11px #ffffff,0 1px 12px #ffffff,0 2px 13px #ffffff,0 3px 14px #ffffff;
-}
 .foto{
-  background-image: url("../media/fotoP.jpg");
   background-size: cover;  
-width: 100px;
+  width: 100px;
   height: 100px;
+  vertical-align: baseline;
 }
+
 .foto:hover{
-  background-image: url("../media/foto.jpg");
   background-size: cover;  
-width: 100px;
+  width: 100px;
   height: 100px;
-}
-.lessionsImage{
-  background-image: url("../media/questionBlock.png");
-  background-size: cover;  
-	width: 100px;
-  height: 100px;
-  filter :blur(2px);
-  -webkit-filter: blur(2px);
-}
-.languagesImage{
-  content: url("../media/konamiLng.png");
-  width: auto;
-  height: auto;
-  filter :blur(2px);
-  -webkit-filter: blur(2px);
-}
-.bgimage{
-  background: url("../media/wallpaper2.jpg");
-  background-size: auto;
-  background-repeat: repeat;
-}
-.skillImage1{
-  content:url("../media/heart.png");
-}
-.skillImage2{
-  content:url("../media/heart2.png") ;
-}
-.skillImage3{
-  content:url("../media/heart3.png");
 }
 .nospacing{
   margin:0;
   padding:0;
+}
+
+@media (min-width: 700px){
+  .ma-table>.row{
+    padding-right:20%;
+  }
+} 
+
+.main-container{
+  background-color:#ffffff;
+  margin-top:100px;
+  margin-bottom: 100px;
+  padding-top:2em;
+  padding-bottom:2em;
+}
+
+.printLogo{
+  font-size: 1.5em;  
+}
+
+.printText{
+  display:none;
+}
+
+.printBox:hover{
+  cursor:pointer;
+}
+.printBox:hover>.printText{
+  display:inline;
+}
+
+.skill1,.skill2,.skill3{
+  display: none;
+}
+.skillImage1,.skillImage2,.skillImage3{
+  display:inline-block;
 }

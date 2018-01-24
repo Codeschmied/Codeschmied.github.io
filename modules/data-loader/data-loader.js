@@ -7,10 +7,10 @@ mod.controller('maLessionsCtrl',["$scope","lessions",  function($scope, lessions
     }
   }]);
 
-mod.controller('maProjectsCtrl',["$scope","projects",  function($scope, projects) {
-      if(!$scope.projects)
+mod.controller('maEmployersCtrl',["$scope","employers",  function($scope, employers) {
+      if(!$scope.employers)
       {
-        $scope.projects = projects;
+        $scope.employers = employers;
       }
     }]);
 
