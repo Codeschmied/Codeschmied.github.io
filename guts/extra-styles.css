@@ -36,11 +36,7 @@
 }
 
 .printLogo{
-  font-size: 1.5em;  
-  height: 1.0em;
-  width:1.0em;
-  max-width:1em;
-  max-height:1em;
+  width:100%;
 }
 
 .printText{
