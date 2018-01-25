@@ -78,7 +78,7 @@ var sf = {
   projects:[  {
     PrimaryTitle:"Integration und Ausbau der Webanwendung",
     SecondaryTitle: "Umbau zur Library, zur Einbindung auf der Partnerseite StayFriends",
-    TimeSpan:		"03/2016 – 03/2018",
+    TimeSpan:		"03/2017 – 03/2018",
     Role:       "Hauptentwickler",
     Activity: "Ausbauen der Features und Betreuung der Integration. Kommunikation mit dem Partnerteam vorwiegend übers Web aufgrund geografischer Distanz.",
     Technologies:	"Javascript,HTML,Gulp,QUnit,Sinon"
