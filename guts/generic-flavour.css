@@ -6,6 +6,10 @@
     max-height:1em;
 }
 
+.pdf-box{
+  float: right;
+}
+
 .skillImage1{
     content:url("../media/star.png");
   }
@@ -26,12 +30,12 @@
   }
 
   h1{
-      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffa84c+0,ff7b0d+100;Orange+3D */
-        background: #ffa84c; /* Old browsers */
-        background: -moz-linear-gradient(top, #ffa84c 0%, #ff7b0d 100%); /* FF3.6-15 */
-        background: -webkit-linear-gradient(top, #ffa84c 0%,#ff7b0d 100%); /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(to bottom, #ffa84c 0%,#ff7b0d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d',GradientType=0 ); /* IE6-9 */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e4a868+0,e4a868+0,db7e31+100 */
+    background: #e4a868; /* Old browsers */
+    background: -moz-linear-gradient(top, #e4a868 0%, #e4a868 0%, #db7e31 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #e4a868 0%,#e4a868 0%,#db7e31 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #e4a868 0%,#e4a868 0%,#db7e31 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4a868', endColorstr='#db7e31',GradientType=0 ); /* IE6-9 */
   }
 
   .lessionsImage{

@@ -81,7 +81,7 @@ var sf = {
     TimeSpan:		"03/2017 – 03/2018",
     Role:       "Hauptentwickler",
     Activity: "Ausbauen der Features und Betreuung der Integration. Kommunikation mit dem Partnerteam vorwiegend übers Web aufgrund geografischer Distanz.",
-    Technologies:	"Javascript,HTML,Gulp,QUnit,Sinon"
+    Technologies:	"Javascript, HTML, Gulp, QUnit, Sinon"
   },
   {
     PrimaryTitle:	"Prototyp einer Webversion",
@@ -89,10 +89,39 @@ var sf = {
     TimeSpan:		"11/2016 – 03/2017",
     Role:       "Hauptentwickler",
     Activity:		"Einarbeiten in die bestehende Architektur der Anwendung, erstellen eines ersten spielbaren Prototypen.",
-    Technologies:	"Javascript,HTML,Gulp,QUnit,Sinon"
+    Technologies:	"Javascript, HTML, Gulp, QUnit, Sinon"
   }
   ],
 };
 
-angular.module('profile').constant('employers',[sf,hde]
-);
+var ade = {
+  name:"anwalt de services ",
+  id:"anwalt",
+  
+  projects: [{
+    PrimaryTitle: "Umgestaltung und Pflege der Platform",
+    SecondaryTitle: "",
+    TimeSpan: "04/2018 - 09/2018",
+    Role: "Frontend Entwickler",
+    Activity: "Umsetzung der Darstellung verschiedener Seitenbereiche. Kosmetische und Inhaltliche Upgrades. Einbindung von Libraries für Darstellung",
+    Technologies: "HTML, SCSS, PHP & Smarty, Assetic, Composer, Yarn, Swiper, Javascript, Unsemantic"
+  },
+  { PrimaryTitle: "Erweiterung des Styleguides",
+  SecondaryTitle: "",
+  TimeSpan: "04/2018 - 09/2018",
+  Role: "Frontend Entwickler",
+  Activity: "Übertragung von etablierten Seitenelementen in den Firmeneigenen Styleguide",
+  Technologies: "Fractal, SCSS, HTML"
+  },
+  {
+    PrimaryTitle: "Konto V4",
+  SecondaryTitle: "Unterstützung bei der Entwicklung des neuen Kontobereichs",
+  TimeSpan: "08/2018 - 09/2018",
+  Role: "Frontend Entwickler",
+  Activity: "Einarbeiten in die bestehende Vagrant-Docker-Infrastruktur. Umkonfigurieren der Infrastruktur, sodass diese auf Windows-PCs funktioniert. Unterstützung im Layoutbereich",
+  Technologies: "Vagrant, Docker, CENTOS, SCSS, HTML, AngularV6"
+  }
+],
+}
+
+angular.module('profile').constant('employers',[ade,sf,hde]);
