@@ -75,53 +75,56 @@ var sf = {
   name:"StayFriends",
   id:"ELO",
 
-  projects:[  {
-    PrimaryTitle:"Integration und Ausbau der Webanwendung",
-    SecondaryTitle: "Umbau zur Library, zur Einbindung auf der Partnerseite StayFriends",
-    TimeSpan:		"03/2017 – 03/2018",
-    Role:       "Hauptentwickler",
-    Activity: "Ausbauen der Features und Betreuung der Integration. Kommunikation mit dem Partnerteam vorwiegend übers Web aufgrund geografischer Distanz.",
-    Technologies:	"Javascript, HTML, Gulp, QUnit, Sinon"
+  projects:[    
+    {
+      PrimaryTitle:	"Prototyp einer Webversion",
+      SecondaryTitle:	"Erstellen eines Prototypen für die Webversion der Handy-app",
+      TimeSpan:		"11/2016 – 03/2017",
+      Role:       "Hauptentwickler",
+      Activity:		"Einarbeiten in die bestehende Architektur der Anwendung, erstellen eines ersten spielbaren Prototypen.",
+      Technologies:	"Javascript, HTML, Gulp, QUnit, Sinon"
   },
   {
-    PrimaryTitle:	"Prototyp einer Webversion",
-    SecondaryTitle:	"Erstellen eines Prototypen für die Webversion der Handy-app",
-    TimeSpan:		"11/2016 – 03/2017",
-    Role:       "Hauptentwickler",
-    Activity:		"Einarbeiten in die bestehende Architektur der Anwendung, erstellen eines ersten spielbaren Prototypen.",
-    Technologies:	"Javascript, HTML, Gulp, QUnit, Sinon"
+      PrimaryTitle:"Integration und Ausbau der Webanwendung",
+      SecondaryTitle: "Umbau zur Library, zur Einbindung auf der Partnerseite StayFriends",
+      TimeSpan:		"03/2017 – 03/2018",
+      Role:       "Hauptentwickler",
+      Activity: "Ausbauen der Features und Betreuung der Integration. Kommunikation mit dem Partnerteam vorwiegend übers Web aufgrund geografischer Distanz.",
+      Technologies:	"Javascript, HTML, Gulp, QUnit, Sinon"
   }
-  ],
+  ]
 };
 
 var ade = {
-  name:"anwalt de services ",
+  name:"anwalt de services",
   id:"anwalt",
   
-  projects: [{
-    PrimaryTitle: "Umgestaltung und Pflege der Platform",
-    SecondaryTitle: "",
-    TimeSpan: "04/2018 - 09/2018",
-    Role: "Frontend Entwickler",
-    Activity: "Umsetzung der Darstellung verschiedener Seitenbereiche. Kosmetische und Inhaltliche Upgrades. Einbindung von Libraries für Darstellung",
-    Technologies: "HTML, SCSS, PHP & Smarty, Assetic, Composer, Yarn, Swiper, Javascript, Unsemantic"
-  },
-  { PrimaryTitle: "Erweiterung des Styleguides",
-  SecondaryTitle: "",
-  TimeSpan: "04/2018 - 09/2018",
-  Role: "Frontend Entwickler",
-  Activity: "Übertragung von etablierten Seitenelementen in den Firmeneigenen Styleguide",
-  Technologies: "Fractal, SCSS, HTML"
-  },
+  projects: [  
   {
     PrimaryTitle: "Konto V4",
-  SecondaryTitle: "Unterstützung bei der Entwicklung des neuen Kontobereichs",
-  TimeSpan: "08/2018 - 09/2018",
-  Role: "Frontend Entwickler",
-  Activity: "Einarbeiten in die bestehende Vagrant-Docker-Infrastruktur. Umkonfigurieren der Infrastruktur, sodass diese auf Windows-PCs funktioniert. Unterstützung im Layoutbereich",
-  Technologies: "Vagrant, Docker, CENTOS, SCSS, HTML, AngularV6"
+    SecondaryTitle: "Unterstützung bei der Entwicklung des neuen Kontobereichs",
+    TimeSpan: "08/2018 - 09/2018",
+    Role: "Frontend Entwickler",
+    Activity: "Einarbeiten in die bestehende Vagrant-Docker-Infrastruktur. Umkonfigurieren der Infrastruktur, sodass diese auf Windows-PCs funktioniert. Unterstützung im Layoutbereich.",
+    Technologies: "Vagrant, Docker, CENTOS, SCSS, HTML, AngularV6"
+  },
+  { 
+    PrimaryTitle: "Erweiterung des Styleguides",
+    SecondaryTitle: "",
+    TimeSpan: "05/2018 - 09/2018",
+    Role: "Frontend Entwickler",
+    Activity: "Übertragung von etablierten Seitenelementen in den Firmeneigenen Styleguide.",
+    Technologies: "Fractal, SCSS, HTML"
+  },
+  {
+    PrimaryTitle: "Umgestaltung und Pflege der Platform",
+    SecondaryTitle: "",
+    TimeSpan: "05/2018 - 09/2018",
+    Role: "Frontend Entwickler",
+    Activity: "Umsetzung der Darstellung verschiedener Seitenbereiche. Kosmetische und Inhaltliche Upgrades. Einbindung von Libraries für Darstellung.",
+    Technologies: "HTML, SCSS, PHP & Smarty, Assetic, Composer, Yarn, Swiper, Javascript, Unsemantic"
   }
-],
+]
 }
 
 angular.module('profile').constant('employers',[ade,sf,hde]);
