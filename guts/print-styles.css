@@ -44,3 +44,11 @@ h1{
     width:3em;
     display: inline-block;
   }
+
+.show-print{
+    display:block;
+}
+
+.hide-print{
+    display: none;
+}
