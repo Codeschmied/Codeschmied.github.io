@@ -125,6 +125,18 @@ var ade = {
     Technologies: "HTML, SCSS, PHP & Smarty, Assetic, Composer, Yarn, Swiper, Javascript, Unsemantic"
   }
 ]
-}
+};
 
-angular.module('profile').constant('employers',[ade,sf,hde]);
+var frnh = {
+  name:"Fraunhofer EZRT",
+  id:"Fraunhofer",
+  projects:[{
+      PrimaryTitle: "Isar",
+      SecondaryTitle: "Produktionskontrollsoftware",
+      Role: "Entwickler",
+      Activity: "Panung eines neuen Zweigprojekts, wartung der bestehenden Software",
+      Technologies: "C# .NET, Docker, Subversion"
+  }]
+};
+
+angular.module('profile').constant('employers',[frnh,ade,sf,hde]);
