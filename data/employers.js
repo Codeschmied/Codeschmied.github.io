@@ -132,9 +132,10 @@ var frnh = {
   id:"Fraunhofer",
   projects:[{
       PrimaryTitle: "Isar",
+      TimeSpan: "02/2019",
       SecondaryTitle: "Produktionskontrollsoftware",
       Role: "Entwickler",
-      Activity: "Panung eines neuen Zweigprojekts, wartung der bestehenden Software",
+      Activity: "Planung eines neuen Zweigprojekts, Wartung der bestehenden Software",
       Technologies: "C# .NET, Docker, Subversion"
   }]
 };
