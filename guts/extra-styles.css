@@ -56,3 +56,9 @@
 .skillImage1,.skillImage2,.skillImage3{
   display:inline-block;
 }
+
+@media (max-width: 1340px) {
+  .lessionsImage{
+    display:none;
+  }
+}
