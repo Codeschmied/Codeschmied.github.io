@@ -2,6 +2,18 @@ h1{
     background:white;
 }
 
+body{
+    font-size: 10pt;
+}
+
+h1{
+    font-size:16pt;
+}
+
+h2{
+    font-size:14pt;
+}
+
 .main-container{
     margin:0;
     width:100%;

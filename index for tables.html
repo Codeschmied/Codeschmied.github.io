@@ -1,0 +1,33 @@
+<table ng-controller="maSkillsCtrl">
+  <tr>
+      <th>Gebiet</th>
+      <th>Teilgebiet</th>
+      <th style="word-wrap: break-word">Kenntnisgrad</th>
+      <th style="word-wrap: break-word">Anwendung in Jahren</th>
+  </tr>
+  <tr ng-repeat-start="skillset in skillsets"></tr>
+    <tr>
+      <th rowspan="{{skillset.subskills.length+1}}" style="text-align:top;vertical-align:top">
+          {{skillset.name}}
+      </th>
+    </tr>
+    <tr ng-repeat="sub in skillset.subskills" sub="sub"></tr>
+  <tr ng-repeat-end></tr>
+</table>
+
+
+<h1 style="display:block">Projektliste</h1>
+<div ng-controller="maEmployersCtrl" >
+<div ng-repeat="employer in employers">
+<h2 id="{{employer.id}}" style="text-align:center;margin-top:2em;text-decoration:underline">{{employer.name}}</h2>
+<table projectstable="employer.projects">
+    
+</table>
+</div>
+</div>
+<br/><br/>
+
+
+
+<script src="../modules/project/project-dir for tables.js"></script>
+<script src="../modules/subskill/subskill-dir for tables.js"></script>

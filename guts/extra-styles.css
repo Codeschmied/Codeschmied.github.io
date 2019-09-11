@@ -21,6 +21,10 @@
   padding:0;
 }
 
+tr~.starter>th{
+  padding-top:10px;
+}
+
 @media (min-width: 700px){
   .ma-table>.row{
     padding-right:20%;
