@@ -14,7 +14,8 @@ angular.module('profile')
 				{name: 	"Fractal", rating:1, experience: 1},
 				{name: 	"Microsoft MVC  bis Version 5"	, rating: 3, experience: 	3},
 				{name:	"QUnit", rating: 2, experience: 1},
-				{name:	"Sinon", rating:2, experience: 1}
+				{name:	"Sinon", rating:2, experience: 1},
+				{name: "Twitter Bootstrap", rating: 2, experience: 2}
 			]
 	},
 	{
