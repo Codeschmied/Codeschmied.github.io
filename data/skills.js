@@ -5,9 +5,12 @@ angular.module('profile')
 		name: "Frameworks und Libraries",
 		subskills:
 			[
-				{name: 	"JQuery"	, rating: 3	, experience: 4 },
-				{name: 	"AngularJS"	, rating: 2, experience: 2},
-				{name: 	"Angular6", rating:1, experience: 1},
+				//{name: 	"JQuery"	, rating: 3	, experience: 4 },
+				//{name: 	"AngularJS"	, rating: 2, experience: 2},
+
+				{ name: "Maven", rating: 1, experience: 1 },
+				{ name: "Swagger", rating: 1, experience: 1 },
+				{name: 	"Angular", rating:2, experience: 2},
 				{name: 	"Fractal", rating:1, experience: 1},
 				{name: 	"Microsoft MVC  bis Version 5"	, rating: 3, experience: 	3},
 				{name:	"QUnit", rating: 2, experience: 1},
@@ -18,7 +21,8 @@ angular.module('profile')
 		name: "Programmiersprachen & umfangreiche Scriptsprachen",
 		subskills:
 			[
-				{name: "C# .NET bis Version 4.5.1"	, rating: 3, experience: 	6},
+				{name: "Java / SpringBoot", rating: 1, experience: 1 },
+				{name: "C# .NET"	, rating: 3, experience: 	6},
 				{name: "PHP", rating: 1, experience: 1}
 			]
 	},
@@ -27,7 +31,7 @@ angular.module('profile')
 		name: "Scriptsprachen & Query-Sprachen",
 		subskills:
 			[
-				{name: "Ecmascript 6 (Javascript)"	, rating: 3, experience: 	4},
+				{name: "Ecmascript 6 (Javascript)"	, rating: 3, experience: 	6},
 				{name: "Powershell"	, rating: 2, experience: 	2},
 				{name: "SQL"	, rating: 2, experience: 	3},
 			]
@@ -50,7 +54,7 @@ angular.module('profile')
 		subskills:
 			[
 				{name: "nSubstitute"	, rating: 2, experience: 	3},
-				{name: "Structuremap"	, rating: 3, experience: 	3},
+				{name: "Structuremap / Lamar"	, rating: 3, experience: 	3},
 				{name: "Rest-services"	, rating: 2, experience: 	2},
 				{name: "Node.js"	, rating: 2, experience: 	2},
 				{name: "Automatisierte UI-tests" , rating: 2, experience: 	2},

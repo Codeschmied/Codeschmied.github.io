@@ -140,4 +140,35 @@ var frnh = {
   }]
 };
 
-angular.module('profile').constant('employers',[frnh,ade,sf,hde]);
+var sntc = {
+    name: "SINTEC GmbH",
+    id: "Sintec",
+    projects: [{
+        PrimaryTitle: "Speicherdashboard",
+        TimeSpan: "11/2019-03/2020",
+        SecondaryTitle: "Übersichtsseite",
+        Role: "Engineer",
+        Activity: "Erarbeitung und Umsetzung der Requirements von Grund auf mit dem Auftraggeber, Verhandlung des Zeitrahmens. ",
+        Technologies: "Java Springboot, Angular, Maven, Jenkins, Swagger"
+    },
+    {
+        PrimaryTitle: "Belege",
+        TimeSpan: "~04/2020-09/2020",
+        SecondaryTitle: "Belege",
+        Role: "Entwickler",
+        Activity: "Weiterenwicklung eines bestehenden Projekts. Angular Routing",
+        Technologies: "Angular"
+        },
+        {
+            PrimaryTitle: "DATEV-Arbeitsplatz",
+            TimeSpan: "~09/2020",
+            SecondaryTitle: "Telefonie, Auswertungstools",
+            Role: "Entwickler",
+            Activity: "Wartung und Kundenservice",
+            Technologies: "C#, DATEV-Frameworks & Tools, Winforms"
+        }
+
+    ]
+};
+
+angular.module('profile').constant('employers', [sntc,frnh,ade,sf,hde]);
